@@ -41,6 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 body{
     font-family: Roboto, sans-serif;
     font-style: italic;
@@ -48,13 +49,7 @@ body{
     text-align: center;
     line-height: 1.75;
 }
-.d-flex{
-    display: flex;
-}
-.wrap{
-    width: 1200px;
-    margin: 0 auto;
-}
+
 /*banner*/
 .banner{
     background: transparent url(./img/banner.png) ;
@@ -186,7 +181,6 @@ footer{
     margin-bottom: 56px;
 }
 
-
 .bgBlack{
     background-color: black;
     color: #fff;
@@ -194,6 +188,14 @@ footer{
 .bgBlack a{
     color:#fff;
     text-decoration: none;
+}
+
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
 }
 .title{
     font-size: 64px;
